@@ -1,0 +1,81 @@
+body{
+	font-family: 'Montserrat Alternates', sans-serif;
+	margin: 0 auto;
+}
+.back{
+	height: 778px;
+	background: url('../img/back.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 100%;
+	max-width: 30%;
+	margin: 0 auto;
+}
+.backinner{
+	background-color: white;
+	padding: 25px 20px 35px 20px;
+	border-radius: 26px;
+}
+.title{
+	text-align: center;
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 32px;
+	color: #000000;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.input{
+	width: 98%;
+	padding: 15px 5px;
+	border: none;
+	border-bottom: 3px solid black;;
+}
+.ss{
+	width: 45%;
+}
+.texts{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	text-align: center;
+	color: #000000;
+}
+label{
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+
+	color: #000000;
+}
+button{
+	border: none;
+	background: yellow;
+	border-radius: 10px;
+	width: 100%;
+	height: 47px;
+
+	font-family: Montserrat Alternates;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+
+@media all and (max-width: 375px){
+	.container{
+		max-width: 80%;
+	}
+}
